@@ -7,7 +7,3 @@
 ```
 docker run --rm -v ./src:/opt/te registry.gitlab.com/mazoea-team/docker-validate-json-schema
 ```
-
-# How to update
-
-Simply commit to the repository.
