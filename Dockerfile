@@ -6,8 +6,8 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 WORKDIR /opt/src
 RUN adduser -D maz
-RUN jsonschema --version
 USER maz
+RUN /usr/local/bin/jsonschema --version
 
 
 ENTRYPOINT [ "/usr/local/bin/jsonschema" ]
